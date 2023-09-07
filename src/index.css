@@ -1,0 +1,30 @@
+:root {
+  --color-yellow: #fdcd2d;
+  --color-yellow-hover: #d3a302;
+  --color-light: #fff;
+  --color-light-rgb: 255, 255, 255;
+  --color-dark: #222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
