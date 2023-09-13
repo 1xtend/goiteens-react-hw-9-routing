@@ -4,6 +4,7 @@
   --color-light: #fff;
   --color-light-rgb: 255, 255, 255;
   --color-dark: #222;
+  --color-dark-rgb: 34, 34, 34;
 }
 
 * {

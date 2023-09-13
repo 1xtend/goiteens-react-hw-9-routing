@@ -1,5 +1,7 @@
-import { NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
+
+import { NavLink } from 'react-router-dom';
+import CustomNavLink from '../CustomNavLink/CustomNavLink';
 
 function Header() {
   return (
@@ -9,15 +11,8 @@ function Header() {
       </NavLink>
 
       <nav className={styles.nav}>
-        <NavLink to="/" className={({ isActive }) => (isActive ? styles.active : styles.link)}>
-          Home
-        </NavLink>
-        <NavLink
-          to="/movies"
-          className={({ isActive }) => (isActive ? styles.active : styles.link)}
-        >
-          Movies
-        </NavLink>
+        <CustomNavLink to="/">Home</CustomNavLink>
+        <CustomNavLink to="/movies">Movies</CustomNavLink>
       </nav>
     </header>
   );

@@ -4,6 +4,7 @@
   align-items: center;
   padding: 20px 0;
   gap: 20px;
+  background-color: rgba(var(--color-dark-rgb), 0.6);
 }
 
 .logo {
@@ -25,23 +26,4 @@
   column-gap: 40px;
   row-gap: 15px;
   flex-wrap: wrap;
-}
-
-.link {
-  font-size: 20px;
-  transition: transform 150ms ease-in-out, color 150ms ease-in-out;
-}
-
-.link:hover {
-  color: var(--color-yellow);
-}
-
-.link:active {
-  color: var(--color-yellow);
-  transform: scale(0.9);
-}
-
-.active {
-  composes: link;
-  color: var(--color-yellow);
 }
